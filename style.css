@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/back01.png);
+    background-color: rgb(19, 1, 36);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+.cards {
+
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 70vw;
+    padding: 10px;
+
+
+    margin-top: 25px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.irelia {
+    
+    width: 350px;
+    height: 500px;
+    background-image: url(img/card-irelia.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.nome {
+    
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff08b;
+}
+
+
+.retan-stat {
+    width: 70px;
+    height: 200px;
+    background: linear-gradient(to bottom, #2E06A4, rgba(85, 12, 255, 0.1));
+    margin-left: 70px;
+    margin-top: 75px;
+}
+.media {
+    text-align: center;
+    font-size: 50px;
+    color: #fff08b;
+}
+.lane-nome {
+    text-align: center;
+    font-size: 30px;
+    color: #fff08b;
+}
+.lane-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url(img/mid-icon.png);
+    background-size: 100%;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    filter: brightness(200%);
+}
